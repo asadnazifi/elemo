@@ -1,0 +1,20 @@
+
+---Upload files---
+Widget file was not uploaded. Error: No file provided.
+
+---Upload files---
+Customizer file was not uploaded. Error: No file provided.
+
+---Upload files---
+Redux file was not uploaded. Error: No file provided.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://emyui.pdthemes.de
+Data file = /var/www/vhosts/pdthemes.de/emyui.pdthemes.de/wp-content/uploads/2022/01/emyui.WordPress.2022-01-26-2.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!

@@ -1,0 +1,21 @@
+/*
+Theme Name: emyui
+Theme URI: http://themeforest.net
+Author: Author: Pdthemes
+Author URI: http://pdthemes.de
+Description: Hosting and Domain Wordpress Theme
+Version: 2.5
+License: GNU General Public License v2 or later
+Tested up to: 6.1
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: emyui
+*/
+@font-face {
+    font-family: TKT ;
+    src: url('fonts/TKT-Sheed black.otf');
+    src: url('fonts/TKT-Sheed bold.otf');
+    src: url('fonts/TKT-Sheed semi bold.otf');
+}
+.font_family_TKT{
+    font-family: TKT!important;
+}

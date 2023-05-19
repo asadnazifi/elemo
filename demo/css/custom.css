@@ -1,0 +1,505 @@
+/*------------------------------------------------------------------
+ * template Name: emyUI - Multipurpose UI Kit for Web Hosting providers with WHMCS Template
+ * Author: coodiv (nedjai mohamed) (nbames.mohamed@gmail.com)
+ * Author URI: https://coodiv.net/
+ * Author URI: https://themeforest.net/user/coodiv
+ * Description: A Bootstrap Responsive Domain & Web Hosting Template + WHMCS template
+ * Bootstrap v4.5 (http://getbootstrap.com)
+ * Love Our work & support team? 😍 Buy us a coffee! https://ko-fi.com/coodiv
+ * Copyright 2021 coodiv.
+ -------------------------------------------------------------------*/
+
+
+
+/*------- ADD YOUR CUSTOM STYLESHEETS TO THIS FILE -------*/
+
+@font-face {
+	font-family: Yekan Bakh FaNum;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/woff/YekanBakhFaNum-Light.woff') format('woff'),   
+	url('../fonts/woff2/YekanBakhFaNum-Light.woff2') format('woff2');	
+}
+
+@font-face {
+	font-family: Yekan Bakh FaNum;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/woff/YekanBakhFaNum-Regular.woff') format('woff'),   
+	url('../fonts/woff2/YekanBakhFaNum-Regular.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: Yekan Bakh FaNum;
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/woff/YekanBakhFaNum-SemiBold.woff') format('woff'),   
+	url('../fonts/woff2/YekanBakhFaNum-SemiBold.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: Yekan Bakh FaNum;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/woff/YekanBakhFaNum-Bold.woff') format('woff'),   
+	url('../fonts/woff2/YekanBakhFaNum-Bold.woff2') format('woff2'); 
+}
+
+@font-face {
+	font-family: Yekan Bakh FaNum;
+	font-style: normal;
+	font-weight: 800;
+	src: url('../fonts/woff/YekanBakhFaNum-ExtraBold.woff') format('woff'),   
+	url('../fonts/woff2/YekanBakhFaNum-ExtraBold.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: Yekan Bakh FaNum;
+	font-style: normal;
+	font-weight: 950;
+	src: url('../fonts/woff/YekanBakhFaNum-ExtraBlack.woff') format('woff'),   
+	url('../fonts/woff2/YekanBakhFaNum-ExtraBlack.woff2') format('woff2');		 
+}
+
+
+body,p,a,ul,li,ol,label,button,form,input,textarea,select{
+	font-family: Yekan Bakh FaNum;
+    direction: rtl!important;
+    text-align: right;
+	letter-spacing: -0.3px!important;
+}
+h1,h2{
+	font-family: Yekan Bakh FaNum;
+	font-weight: 800;
+	letter-spacing: 0!important;
+	letter-spacing: -0.3px!important;
+}
+h3,h4,h5,h6{
+font-weight: bold!important;
+	letter-spacing: -0.3px!important;
+}
+
+.coodiv-text-9 {
+    font-size: 14px;
+
+}
+.pr-lg-0, .px-lg-0 {
+    padding-left: 0!important;
+	padding-right: 15px!important;
+}
+.pl-lg-0, .px-lg-0 {
+    padding-right: 0!important;
+	padding-left: 15px!important;
+}
+.pr-xl-19, .px-xl-19 {
+    padding-left: 5rem!important;
+    padding-right: 0!important;
+
+}
+.content-plan-one ,.main-homepage-plans-slider.slick-initialized.slick-slider ,.services-box-container,.single-slide-boxes-slider.aos-init.slick-initialized.slick-slider.aos-animate{
+    direction: ltr;
+}
+.mr-8, .mx-8 {
+    margin-left: 1.5625rem!important;
+	margin-right: 0!important;
+}
+.plan-with-montains:after {
+    right: -20px;
+	left: unset;
+}
+.reviews-overview .reviews-stars i {
+    padding-right: 6px;
+}
+.col-lg-4.offset-lg-2.col-md-12.text-lg-right.text-center {
+    text-align: left!important;
+}
+.single-slide-boxes-arrows .slick-arrow ,#dinamic-filter-list li a i{
+	transform: rotate(180deg) !important;
+
+}
+div#global-network-tabsContent {
+    direction: ltr;
+}
+.card-blog .single-post .single-post-content .single-post-title {
+    font-size: 16px;
+
+}
+.comparison-box .comparison-box-left-side .comp-title {
+  text-align: center;
+}
+.single-slide-boxes.suggested-domains.feature-section.pb-2.pb-lg-15.mt-n5.position-relative.coodiv-z-index-2 {
+    direction: ltr;
+}
+.mr-3, .mx-3 {
+    margin-left: .5rem!important;
+      margin-right: 0!important;
+}
+h5.mb-5.coodiv-text-7 {
+    text-align: right!important;
+}
+h4.pre-title.coodiv-text-12.text-green.text-uppercase.mb-0 {
+    text-align: right!important;
+}
+p.coodiv-text-12.coodiv-text-color.font-weight-bold.text-uppercase.mb-4 {
+    text-align: center!important;
+}
+h3.coodiv-text-12.font-weight-bold.text-uppercase.mb-0 {
+    text-align: right!important;
+}
+h2.coodiv-text-6.mb-7 {
+    text-align: right!important;
+}
+p.coodiv-text-9.px-7.mb-0.coodiv-color-white-opacity-9.mb-10 {
+    text-align: center!important;
+}
+p.coodiv-text-9.mb-0 {
+    text-align: center!important;
+}
+.with-moon-bg:after {
+    left: unset;
+    right: 0;
+
+}
+.coodiv-text-4 {
+    font-size: 30px;
+    letter-spacing: -1.2px;
+    line-height: 1.3;
+}
+.domains-box .sold-side-domain i {
+    font-size: 13px;
+}
+.coodiv-text-3 {
+    direction: rtl;
+}
+.domain-box-sale-header .col h5 {
+    font-size: 12px;
+}
+.coodiv-text-2 {
+    font-size: 38px;
+  
+}
+p.coodiv-text-12.mb-0 {
+    text-align: center;
+}
+.games-plan .btn-order {
+   text-align: center; 
+}
+.voice-plan .btn-order {
+    text-align: center;
+}
+.coodiv-text-3 {
+    font-size: 28px; 
+}
+.ml-5, .mx-5 {
+    margin-right: .65rem!important;
+}
+.our-domains-features-box .our-domains-features-head .our-domains-features-head-element .our-domains-features-text span:last-child {
+    font-size: 13px;
+    letter-spacing: -0.5px;
+    font-weight: 100;
+    display: block;
+}
+.with-planet-bg:after {
+    left: -170px;
+    right: unset;
+}
+p.coodiv-text-9.mb-0.coodiv-color-white-opacity-9.mb-10 {
+    text-align: right!important;
+}
+.hero-content.dark-mode-texts.mb-15.mb-lg-10.text-center.text-md-left {
+    text-align: right!important;
+}
+.reviews-overview strong {
+    margin-left: 5px;
+}
+.mr-4, .mx-4 {
+    margin-left: .625rem!important;
+}
+p.coodiv-text-11.font-weight-light {
+    text-align: center;
+}
+.text-lg-left {
+    text-align: right!important;
+}
+.number-features-box {
+    text-align: center!important;
+}
+.ddos-attack-main-text p.coodiv-text-8 {
+    text-align: center!important;
+}
+
+.offset-lg-2 {
+    margin-right: 16.66667%;
+}
+.our-domains-features-box .our-domains-features-head .our-domains-features-head-element .check-elements {
+    left: 0;
+    right: unset;
+
+}
+.our-domains-features-box .our-domains-features-head.element-page .lock-badge {
+
+    left: -18px;
+    right: unset;
+ 
+}
+.ml-auto{
+    margin-right: auto!important;
+    margin-left: 0!important;
+}
+.mr-7, .mx-7 {
+    margin-left: 1.25rem!important;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+
+    padding-left: .5rem;
+    padding-right: 0;
+
+}
+.breadcrumb-item + .breadcrumb-item {
+    padding-right: .5rem;
+    padding-left: 0;
+}
+p.coodiv-text-12.coodiv-text-color.font-weight-bold.text-uppercase.mb-2 {
+    text-align: center;
+}
+.mr-6, .mx-6 {
+    margin-left: 1rem!important;
+    margin-right: 0!important;
+}
+.single-post.full-img-fluid-post .single-post-content .single-post-title {
+
+    font-weight: bold;
+}
+p.coodiv-text-11.white-text.font-weight-light {
+    text-align: right;
+}
+.single-block.mb-12.mb-lg-15 p.coodiv-text-9.mb-0{
+    text-align: right!important;
+}
+.mr-6, .mx-6 {
+    margin-left: 1rem!important;
+
+}
+.ml-6, .mx-6 {
+    margin-right: 1rem!important;
+}
+.mr-2, .mx-2 {
+    margin-left: 0.5rem!important;
+}
+i.ml-2.fas.fa-chevron-circle-right.coodiv-text-7 {
+    transform: rotate(180deg) !important;
+}
+.text-left {
+    text-align: right!important;
+}
+.btn-toggle.active span {
+    right: calc(100% - 77px);
+}
+.live-support-trigers p.coodiv-text-11.mb-0.mt-1{
+    text-align: center;
+}
+.pl-xl-20, .px-xl-20 {
+    padding-right: 5.3125rem!important;
+}
+.nice-select .option {
+    text-align:right;
+
+}
+.incident-list:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    top: 45px;
+    bottom: 0;
+    background: #ebf2f6;
+    right: 25px;
+}
+.pr-0, .px-0 {
+    padding-left: 0!important;
+}
+.pl-0, .px-0 {
+    padding-right: 0!important;
+}
+
+
+.single-slide-boxes-slider p.coodiv-text-12.mb-0 {
+    text-align: right;
+    padding-right: 12px;
+}
+.single-slide-boxes-slider .slick-slide img {
+    display: block;
+    padding-right: 10px;
+}
+.coodiv-text-5 {
+    font-size: 1.2rem;
+    letter-spacing: -1.2px;
+    line-height: 1.375;
+}
+.coodiv-text-6 {
+    font-size: 1.3rem;
+    letter-spacing: -0.5px;
+    line-height: 1.42;
+}
+.pricing-plan-tree p.coodiv-text-11.mb-0 {
+    text-align: center;
+}
+.list-inline {
+    padding-right: 0;
+
+}
+.mr-5, .mx-5 {
+    margin-left: .75rem!important;
+}
+.slider.signup-page-slider.slick-initialized.slick-slider.slick-dotted{
+    direction: ltr;
+}
+span.coodiv-text-11.mb-0.fw-100.d-block.color-blackish-blue-opacity {
+    text-align: center;
+}
+.hero-helf-2-btns .btn:first-child {
+    width: 56%;
+    margin-left: 3%;
+}
+.hero-content.dark-mode-texts.mb-15.mb-lg-5.text-center.text-md-left.pt-10.position-relative.coodiv-z-index-1 {
+    text-align: right!important;
+}
+.coodiv-text-9.px-7.pl-md-0.pr-md-11.mb-0.color-blackish-blue-opacity{
+    text-align: right!important;
+}
+.pl-md-0, .px-md-0 {
+    padding-right: 0!important;
+}
+.pl-lg-15, .px-lg-15 {
+    padding-right: 3.75rem!important;
+}
+.dropdown-menu .col-md-4.pl-lg-2 {
+    margin-right: -10px!important;
+}
+.dropdown-menu .col-md-4.pr-lg-0.mb-3.mb-lg-0 {
+    margin-left: 15px!important;
+}
+.coodiv-menu-dropdown>.drop-menu-item.suggestion-btn>a {
+    padding: 15px 10px 15px 0px!important;
+}
+.list-unstyled {
+    padding-right: 0;
+    list-style: none;
+}
+.mr-lg-6, .mx-lg-6 {
+    margin-left: 1rem!important;
+}
+h3.title.coodiv-text-9.mb-2.color-blackish-blue ,.megamenu-ads{
+    text-align: right!important;
+}
+h5.d-block.py-5.color-blackish-blue.coodiv-text-9.pl-9.mb-0.rounded-top-10.coodiv-bg-gray-2-opacity-visible.border-bottom-3-green {
+    text-align: right;
+    padding-right: 25px;
+}
+.coodiv-abs-tr {
+    position: absolute;
+    top: 0;
+    right: 0!important;
+    left: unset!important;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+@media screen and (max-width: 480px) {
+.pl-lg-15, .px-lg-15 {
+    padding-right: 1rem!important;
+}
+}
+.ddos-attack-package .ddos-first-features {
+    margin-top: 15px;
+    padding-right: 0;
+    padding-top: 10px;
+    list-style: none;
+}
+.ddos-attack-package .ddos-second-features {
+    margin-top: 15px;
+    padding-right: 0;
+    padding-top: 10px;
+    list-style: none;
+}
+.ddos-attack-package .ddos-third-features {
+    margin-top: 15px;
+    padding-right: 0;
+    padding-top: 10px;
+    list-style: none;
+}
+.price-content {
+    direction: rtl!important;
+}
+.main-features-box.media p.coodiv-text-9.mb-0{
+    text-align: right!important;
+}
+.tab-pane.fade .row.justify-content-start {
+    flex-direction: row-reverse;
+}
+.tab-pane .border-right {
+    border-left: 1px solid var(--border-color)!important;
+    border-right: none!important;
+}
+.rounded-20.shadow-custom .pr-15,.rounded-20.shadow-custom .px-15 {
+    padding-left: 3.75rem!important;
+    padding-right: 1.2rem!important;
+}
+@media(max-width:480px){
+    .pb-lg-35, .py-lg-35 {
+        padding-bottom: 5.625rem!important;
+    }
+    .domain-header-search-form .pr-lg-0,.domain-header-search-form .px-lg-0 {
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .domain-header-search-form .pl-lg-0,.domain-header-search-form .px-lg-0 {
+        padding-right: 15px!important;
+        padding-left: 15px!important;
+    }
+    p.color-blackish-blue-opacity.coodiv-text-10.d-lg-flex.align-items-center.justify-content-center {
+        text-align: center;
+    }
+    .col-lg-4.offset-lg-2.col-md-12.text-lg-right.text-center {
+        text-align: center!important;
+    }
+    .cpanel-plan-off {
+        right: 10px!important;
+    }
+    .comparison-box .comparison-box-left-side .comp-sub-title {
+        margin-right: 23%!important;
+    }
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0!important;
+}
+.nice-select:after {
+    right: unset;
+    left: 12px;
+ 
+}
+.incident-list.pl-20{
+    padding-right: 5.3125rem!important;
+}
+.icon-message-circle:before {
+    content: "\e890";
+    margin-left: 5px;
+    top: 1px;
+    position: relative;
+}
+.icon-chevron-left:before {
+    content: "\e844";
+}
+.pr-lg-11, .px-lg-11 {
+    padding-left: 2.5rem!important;
+    padding-right: 0!important;
+}
+.mr-lg-15, .mx-lg-15 {
+    margin-left: 3.75rem!important;
+}
+.mr-lg-15, .mx-lg-15 {
+    margin-right: 0!important;
+}
